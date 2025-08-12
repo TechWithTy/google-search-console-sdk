@@ -1,9 +1,5 @@
-# Ignore secrets and local env for Google Search Console SDK
-
-# Service account key (do NOT commit)
+# Secrets
 analytics-deal-scale.json
-
-# Common credential files (adjust as needed)
 client_secrets.json
 *.sa.json
 *.key.json
@@ -14,24 +10,18 @@ client_secrets.json
 *.token
 *.tokens
 
-# Local env files
+# Local env
 .env
 .env.local
 .env.*.local
 
-# Python cache and build artifacts
+# Python cache/build
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 *.egg-info/
 .cache/
 .pytest_cache/
 
-# Virtual envs
+# Venv
 .venv/
 venv/
-
-# OS / editor junk
-.DS_Store
-Thumbs.db
