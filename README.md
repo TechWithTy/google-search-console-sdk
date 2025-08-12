@@ -1,4 +1,4 @@
-# DealScale Google Search Console SDK (Python)
+# CyberOni Google Search Console SDK (Python)
 
 Utilities and a lightweight client for the Google Search Console (Webmasters v3) API. Includes typed models, retrying HTTP logic, and quickstart scripts for both installed-app (interactive) and service-account (server) authentication.
 
