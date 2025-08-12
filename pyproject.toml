@@ -1,0 +1,30 @@
+[project]
+name = "dealscale-gsc-sdk"
+version = "0.1.0"
+description = "DealScale Google Search Console SDK and scripts"
+authors = [{ name = "DealScale" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31",
+  "google-auth>=2.22",
+  "google-auth-oauthlib>=1.2",
+  "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# Treat this folder as a package namespace for scripts.
+packages = []
+
+[tool.uv]
+# Hints for uv users (optional)
+index-url = "https://pypi.org/simple"
